@@ -1,0 +1,23 @@
+Commands List
+
+pwd - Shows your location in terminal.
+
+ls -l - long listing (permissions, size, etc.)
+
+ls -a - show hidden files (start with .)
+
+ls -la - both together.
+
+/etc - Directory.
+
+/var - Directory.
+
+/usr - Directory.
+
+(~) - Refers to home.
+
+sudo apt update - check for updates.
+
+nmap - local system.
+
+cd - change Directory.
