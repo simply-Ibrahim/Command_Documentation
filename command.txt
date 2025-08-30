@@ -21,3 +21,7 @@ sudo apt update - check for updates.
 nmap - local system.
 
 cd - change Directory.
+
+cp - copy between folders
+
+git add . - update folder
