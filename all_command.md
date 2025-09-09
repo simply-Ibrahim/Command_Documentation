@@ -1,7 +1,7 @@
 # Footprinting
 ## scanning host on network
 1. nmap
-` nmap -sn < gateway >/cidr
+` nmap -sn < gateway >/cidr `
 
 
 Example
@@ -36,4 +36,26 @@ MAC Address: 44:A3:BB:19:C0:03 (Unknown)
 Nmap scan report for 192.168.0.110
 Host is up.
 Nmap done: 256 IP addresses (10 hosts up) scanned in 6.73 seconds
+```
+2. Netdiscover
+` sudo netdiscover < gateway > /cidr `
+
+
+Example
+```
+ Currently scanning: Finished!   |   Screen View: Unique Hosts                                                               
+                                                                                                                             
+ 25 Captured ARP Req/Rep packets, from 9 hosts.   Total size: 1500                                                           
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 192.168.0.103   c0:bf:be:3f:61:e7      1      60  AzureWave Technology Inc.                                                 
+ 192.168.0.109   08:00:27:09:0e:2c      1      60  PCS Systemtechnik GmbH                                                    
+ 192.168.0.106   ac:19:8e:12:e8:eb      1      60  Intel Corporate                                                           
+ 192.168.0.108   ac:19:8e:12:e8:eb      1      60  Intel Corporate                                                           
+ 192.168.0.112   28:f3:66:30:4c:d5      1      60  Shenzhen Bilian electronic CO.,LTD                                        
+ 192.168.0.1     b0:4e:26:22:5e:da      2     120  TP-LINK TECHNOLOGIES CO.,LTD.                                             
+ 192.168.0.105   ac:19:8e:12:e8:eb      4     240  Intel Corporate                                                           
+ 192.168.0.111   26:fa:22:de:9a:7a     11     660  Unknown vendor                                                            
+ 192.168.0.115   8a:07:02:29:95:cd      3     180  Unknown vendor                                                            
 ```
