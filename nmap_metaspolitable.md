@@ -1,6 +1,6 @@
 # Nmap on Metaspolitable
-targate iP :- 192.168.0.111
-Purpose :- Learning Nmap scan
+targate iP :- 192.168.0.111 \
+Purpose :- Learning Nmap scan \
 Author :- Ibrahim H Siamwala <simplyibrahim18@gmail.com>
 
 
