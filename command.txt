@@ -25,3 +25,5 @@ cd - change Directory.
 cp - copy between folders
 
 git add . - update folder
+
+nmap -sn
