@@ -99,5 +99,39 @@ Nmap done: 1 IP address (1 host up) scanned in 1.47 seconds
 
 
 ## Scan All TCP Open Ports
+` nmap -sS -p- <targate> `
+
+
+Example
+```
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-14 10:55 EDT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.37s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+rDNS record for 45.33.32.156: 156.32.33.45.in-addr.arpa
+Not shown: 65518 closed tcp ports (reset)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+80/tcp    open     http
+1305/tcp  filtered pe-mike
+1675/tcp  filtered pdp
+5060/tcp  filtered sip
+8718/tcp  filtered unknown
+9929/tcp  open     nping-echo
+11638/tcp filtered unknown
+15028/tcp filtered unknown
+17047/tcp filtered unknown
+27681/tcp filtered unknown
+31337/tcp open     Elite
+34015/tcp filtered unknown
+35861/tcp filtered unknown
+37754/tcp filtered unknown
+48294/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 2136.58 seconds
+```
+
+
 
 
