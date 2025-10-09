@@ -1,10 +1,15 @@
 **Name** : Ibrahim Siamwala
+
 **Services Used :** Wireshark & nmap
+
 **Kali ip :** 192.168.1.12
+
 **Metaspolitable :** 192..168.1.13
+
 **Filter :** ip.addr == 192.168.1.12 && ip.addr == 192.168.1.13
 
 `nmap -A <targate  ip>`
+
 Output
 ```
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-09 03:16 EDT
@@ -135,9 +140,13 @@ HOP RTT     ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 101.96 seconds
 ```
+
 **Screenshot** : ![[Pasted image 20251009032415.png]]
+
 **Wireshark output**  ![[nmap -A.pcapng]]
+
 `nmap -sP <targate ip>`
+
 **Output**
 ```
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-09 03:30 EDT
@@ -147,9 +156,12 @@ MAC Address: 08:00:27:49:B0:EE (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
 Nmap done: 1 IP address (1 host up) scanned in 0.18 seconds
 ```
 
+
 **Screenshot** : ![[Pasted image 20251009033155.png]]
 
+
 `nmap -sn <targate ip>`
+
 **Output** 
 ```                                                                  ┌──(root㉿kali)-[/home/kali]
 └─# nmap -sn 192.168.1.13  
@@ -161,9 +173,12 @@ Nmap done: 1 IP address (1 host up) scanned in 0.15 seconds
 
 ```
 
+
 **Screenshot** : ![[Pasted image 20251009033648.png]]
 
+
 `nmap -Pn <targate ip>`
+
 **Output**
 ```
 └─# nmap -Pn 192.168.1.13                        
@@ -201,5 +216,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.73 seconds
 
 ```
 
+
 **Screenshot** : ![[Pasted image 20251009034005.png]]
+
 **Wireshark output** : ![[nmap -Pn.pcapng]]
